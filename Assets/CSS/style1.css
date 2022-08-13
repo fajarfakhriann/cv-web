@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@100;200;300&family=Roboto+Mono:wght@200&display=swap");
+*,
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  background-color: #fff;
+  justify-content: space-around;
+  padding: 12px 0;
+  align-items: center;
+}
+
+nav .logo {
+  color: #497266;
+  font-family: "Pacifico";
+  cursor: pointer;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  width: 40%;
+  justify-content: space-between;
+}
+
+nav ul li a {
+  color: #96bcb1;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #0080ff;
+}
+
+nav .btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav .btn .sign {
+  background-color: #0080ff;
+  border: none;
+  color: white;
+  padding: 14px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 14px;
+  margin-right: 8px;
+  border-radius: 25px;
+  cursor: pointer;
+  font: bold;
+}
+nav .btn .sign:hover {
+  background-color: white;
+  color: #0080ff;
+  border: 1px solid #0080ff;
+}
+
+nav .btn .regis {
+  background-color: #fff;
+  border: none;
+  color: #0080ff;
+  padding: 8px 22px;
+  font-size: 15px;
+  border-radius: 25px;
+  border: 1px solid #0080ff;
+  cursor: pointer;
+}
+
+nav .btn .regis:hover {
+  background-color: #0080ff;
+  color: white;
+}
+/* 
+.menu-toggle {
+  display: flex;
+  flex-direction: column;
+  height: 20px;
+  justify-content: space-between;
+}
+
+.menu-toggle span {
+  display: block;
+  width: 28px;
+  height: 3px;
+  background-color: black;
+  border-radius: 3px;
+} */
+
+.hero-icon {
+  display: flex;
+  justify-content: space-between;
+  background-color: #e2e2e2;
+  color: #314d44;
+}
+
+.hero-icon button {
+  background-color: #0080ff;
+  border: none;
+  color: white;
+  padding: 14px 70px;
+  text-align: center;
+  display: inline-block;
+  font-size: 14px;
+  margin-right: 8px;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-left: 150px;
+  border: 1px solid #314d44;
+}
+.hero-icon button:hover {
+  background-color: white;
+  color: #0080ff;
+}
+
+.text {
+  text-items: center;
+  margin: 140px 100px auto;
+  font-size: 30px;
+}
+.text span {
+  color: #0080ff;
+}
+.text p {
+  font-size: 15px;
+}
+
+section h1 {
+  text-align: center;
+  margin-top: 80px;
+  font-family: "Pacifico";
+  color: #314d44;
+}
+
+.service {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 12px 0;
+  text-align: center;
+  color: #314d44;
+  height: 200px;
+  align-items: center;
+}
+.service .service1 p {
+  margin-top: 8px;
+}
+.service .service2 p {
+  margin-top: 8px;
+}
+.service .service3 p {
+  margin-top: 8px;
+}
+
+.galerry {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  padding: 12px 0;
+}
+
+.card1 {
+  width: 180px;
+  align-items: center;
+}
+
+/* Responsive */
+@media screen and (max-width: 576px) {
+  nav ul li a {
+    display: none;
+  }
+
+  .menu-toggle span {
+    display: block;
+  }
+
+  .btn {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav ul {
+    width: 50%;
+  }
+}

@@ -1,0 +1,14 @@
+.carousel-inner img {
+  height: 500px;
+}
+.carousel-caption {
+  text-align: center;
+}
+
+.logo img {
+  width: 200px;
+  margin-top: 40px;
+}
+.hero {
+  display: flex;
+}
